@@ -1,0 +1,758 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+body {
+    font-family: 'PT Sans Caption', sans-serif;
+    margin: 0 auto;
+    background: #fff;
+    line-height: 1.5;
+    text-rendering: optimizelegibility;
+}
+
+.flex_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex_row_start {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.flex_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1240px;
+    min-width: 840px;
+    margin: 0 auto;
+}
+
+/*<!--header block-->*/
+header {
+    box-sizing: border-box;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../image/IMG_3644.png) no-repeat center;
+    background-size: cover;
+    color: #ffffff;
+    width: 100%;
+    min-height: 800px;
+    position: relative;
+}
+
+.header_title h1 {
+    font-size: 40px;
+}
+
+.title_centre {
+    text-align: center;
+    padding: 100px 240px 0 240px;
+}
+
+.header_title {
+    font-weight: bold;
+}
+
+.header_blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 75px 100px 0 100px
+
+}
+
+.blocks_content {
+    width: 250px;
+    height: 150px;
+    border: 2px solid white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.blocks_content h2 {
+    font-size: 40px;
+}
+
+.nav {
+    border-bottom: 2px solid #adadad;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 40px 100px 40px 0;
+    color: #000;
+}
+
+.nav li a {
+    color: #000;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.nav li a:hover {
+    color: #f6ae48;
+}
+
+/*<!--header block-->*/
+
+
+/*<!--studia block-->*/
+.studia_main_block {
+    display: flex;
+    flex-direction: row;
+    padding: 120px 0;
+    position: relative;
+}
+
+.z-index-title {
+    position: absolute;
+    font-size: 300px;
+    font-weight: bold;
+    top: -100px;
+    left: 400px;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+.studia_bloc_title {
+    font-weight: bold;
+    font-size: 50px;
+    padding-right: 150px;
+}
+
+.studia_bloc_content {
+    padding-right: 150px;
+}
+
+.studia_blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.studia_block_three {
+    background: #f6ae48;
+    padding: 25px;
+}
+
+.studia_block {
+    width: 400px;
+    margin-bottom: 200px;
+}
+
+.support_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.ot_1000 {
+    background: #f6ae48;
+    color: white;
+    padding: 7px 10px;
+    border: 2px solid white;
+}
+
+/*<!--studia block-->*/
+
+/*КРЕДО НАШЕЙ КОМАПАНИИ*/
+.kredo_block {
+    box-sizing: border-box;
+    background-size: cover;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../image/IMG_3654.png) no-repeat center;
+    background-size: cover;
+    color: #ffffff;
+    width: 100%;
+    height: 570px;
+    position: relative;
+    z-index: -2;
+}
+
+.kredo_block_container {
+    padding: 120px 220px;
+    text-align: center;
+}
+
+.kredo_block_container p {
+    padding: 50px 0;
+}
+
+.kredo_block_container h1 {
+    font-size: 40px;
+}
+
+/*Разработка*/
+
+.LANDING_PAGE {
+    box-sizing: border-box;
+    background-size: cover;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../image/IMG_3646.png) no-repeat center;
+    background-size: cover;
+    color: #ffffff;
+    position: relative;
+    width: 370px;
+    height: 320px;
+}
+
+.bg_web {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../image/заказ.png) no-repeat center;
+}
+
+.bg_shop {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../image/Free-04.png) no-repeat center;
+}
+
+.LANDING_PAGE_content {
+    padding: 80px 40px 30px 40px;
+}
+
+.LANDING_PAGE_content h1 {
+    border-bottom: 2px solid #adadad;
+    padding-bottom: 20px;
+    margin-bottom: 55px;
+}
+
+.ot_15000 {
+    background: transparent;
+    border: 2px solid #00b9e7;
+}
+
+.green {
+    border: 2px solid #66bf0d;
+}
+
+.yellow {
+    border: 2px solid #ffcb00;
+}
+
+.container__develop_block {
+    padding: 210px 10px 130px 10px;
+    position: relative;
+}
+
+.develop_block {
+    position: absolute;
+    width: 650px;
+    height: 550px;
+    top: -50px;
+    left: -55px;
+    background: #f6ae48;
+    z-index: -1;
+}
+
+.develop_block h1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/*Разработка*/
+/*КРЕДО НАШЕЙ КОМАПАНИИ*/
+
+
+/*BE THE FIRST*/
+.BE_THE_FIRST__text {
+    width: 580px;
+    padding-top: 50px;
+}
+
+.BE_THE_FIRST__title {
+    padding-bottom: 50px;
+}
+
+.BE_THE_FIRST {
+    position: relative;
+}
+
+.z-index-title__mini {
+    position: absolute;
+    font-size: 70px;
+    font-weight: bold;
+    top: 0;
+    left: -20px;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+.z-index-title__mini_apd {
+    position: absolute;
+    font-size: 70px;
+    font-weight: bold;
+    top: -50px;
+    left: -20px;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.BE_THE_FIRST__logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.BE_THE_FIRST__logo img:first-child {
+    padding-bottom: 20px;
+}
+
+/*BE THE FIRST*/
+
+
+/*our_project*/
+.our_project {
+    position: relative;
+    height: 120px;
+    background: #303263;
+    color: #fff;
+    text-align: center;
+}
+
+.z-index-title_cent {
+    position: absolute;
+    font-size: 100px;
+    font-weight: bold;
+    top: -80px;
+    left: 300px;
+    z-index: 1;
+    opacity: 0.1;
+}
+
+.h1_simple {
+    line-height: 120px;
+}
+
+/*our_project*/
+
+
+.our_project__top {
+    margin-bottom: -40px;
+}
+
+.our_project__down, .our_project__top {
+    transform: scale(0.9);
+    image-rendering: pixelated;
+}
+
+
+.our_project__top img:hover {
+    background: #f6ae48;
+}
+
+/*Еще больше*/
+.line_more {
+    margin-top: -18px;
+    background: #303263;
+    width: 100%;
+    text-align: center;
+}
+
+.more {
+    margin: 25px 0;
+    background: #6a6b8e;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+/*Еще больше*/
+
+
+/*АДАПТИВНОСТЬ*/
+
+.container_right_cut {
+    max-width: 1240px;
+    float: right;
+    padding: 150px 0;
+}
+
+.adaptability_text {
+    max-width: 540px;
+    padding-right: 120px;
+    position: relative;
+}
+
+
+.padd {
+    padding-right: 60px;
+}
+
+.padd_plansh {
+    padding-right: 90px;
+}
+
+.border_phone {
+    text-align: center;
+    border: 3px solid #00b9e7;
+    border-radius: 10px;
+    min-width: 110px;
+    min-height: 225px;
+}
+
+.tch {
+    display: inline-block;
+    text-align: center;
+    background: #00b9e7;
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    /*margin-bottom: 5px;*/
+
+}
+
+.tch_camera {
+    text-align: center;
+    padding: 12px 0;
+}
+
+.camera {
+    border-bottom: 3px solid #00b9e7;
+    width: 30px;
+}
+
+.screen_phone {
+    margin: 0 auto;
+    text-align: center;
+    background: url(../image/phoneME.png) no-repeat center;
+    background-size: cover;
+    border: 3px solid #00b9e7;
+    position: relative;
+    width: 96px;
+    height: 167px;
+}
+
+.but_phone {
+    margin-top: 5px;
+    display: inline-block;
+    text-align: center;
+    background: transparent;
+    border: 2px solid #00b9e7;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+
+}
+
+
+/*planshet*/
+.border_plansh {
+    text-align: center;
+    border: 5px solid #00b9e7;
+    border-radius: 10px;
+    min-width: 237px;
+    min-height: 340px;
+}
+
+.screen_plansh {
+    margin: 0 auto;
+    text-align: center;
+    background: url(../image/Rectangle1.png) no-repeat center;
+    background-size: cover;
+    border: 3px solid #00b9e7;
+    position: relative;
+    min-width: 207px;
+    min-height: 280px;
+    padding-top: 10px;
+}
+
+.but_plansh {
+    margin-top: 15px;
+    display: inline-block;
+    text-align: center;
+    background: transparent;
+    border: 4px solid #00b9e7;
+    border-radius: 50%;
+    min-width: 20px;
+    min-height: 20px;
+}
+
+
+/*comp */
+
+.border_comp {
+    border: 3px solid #00b9e7;
+    border-right: none;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 15px 0 15px 15px;
+}
+
+.screen_comp {
+    margin: 0 auto;
+    text-align: center;
+    background: url(../image/comp.png) no-repeat center;
+    background-size: cover;
+    border: 3px solid #00b9e7;
+    border-right: none;
+    position: relative;
+    min-width: 130px;
+    min-height: 365px;
+    padding-top: 10px;
+}
+
+.stand_comp {
+    border: 3px solid #00b9e7;
+    width: 220px;
+    min-height: 25px;
+    position: absolute;
+    border-right: none;
+    right: 0px;
+}
+
+/*!*comp **/
+
+/*АДАПТИВНОСТЬ*/
+
+
+/*Trade-in/*/
+.trade_container {
+    box-sizing: border-box;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../image/close-meeting.png) no-repeat center;
+    background-size: cover;
+    color: #ffffff;
+    width: 100%;
+    min-height: 670px;
+    position: relative;
+}
+
+.trade-in_title h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    padding: 60px 0;
+}
+
+.Trade-in__column_title {
+    min-height: 60px;
+    margin-bottom: 30px;
+}
+
+.Trade-in__column_title img {
+    padding-right: 20px;
+}
+
+.Trade-in__column_title h3 {
+    padding-top: 35px;
+}
+
+.trade_program:last-child div {
+    padding-right: 1px;
+}
+
+.Trade-in__text {
+    padding-right: 40px;
+}
+
+/*Trade-in button*/
+.butTr {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.trade_button {
+    display: inline;
+    text-align: center;
+    background: #f6ae48;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 30px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.trade_button:hover {
+    opacity: 0.7;
+    background: #f6ae48;
+
+}
+
+/*Trade-in/*/
+
+
+/*BE CAREFUL*/
+.BE_CAREFUL_text {
+    position: relative;
+    padding: 50px;
+}
+
+.BE_CAREFUL_text__title {
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/*BE CAREFUL*/
+
+
+/*СВЯЖИТЕСЬ С НАМИ*/
+.contact_container {
+    box-sizing: border-box;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../image/IMG_3643.png) no-repeat center;
+    background-size: cover;
+    color: #ffffff;
+    width: 100%;
+    min-height: 555px;
+    position: relative;
+}
+
+.contact_container_inside {
+    padding: 125px 0 98px 0;
+}
+
+.contact_container_text {
+    padding-right: 170px;
+}
+
+form {
+    width: 610px;
+    min-height: 258px;
+    max-height: 258px;
+    background: transparent;
+    margin: 0;
+    border: 3px solid #fff;
+}
+
+input, textarea {
+    border: 3px solid #fff;
+    background: transparent;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.email {
+    width: 100%;
+}
+
+.name {
+    width: 50%;
+}
+
+.textarea {
+    width: 100%;
+}
+
+.send {
+    padding-top: 20px;
+}
+
+.send p {
+    font-size: 14px;
+    padding-right: 35px;
+}
+
+
+/*СВЯЖИТЕСЬ С НАМИ*/
+
+.footer {
+    flex: 0 0 auto;
+    text-align: center;
+    padding: 40px 0;
+    background: #f6ae48;
+
+}
+
+
+/*МЕДИА ЗАПРОСЫ*/
+
+@media only screen and (max-width: 840px) {
+    html {
+        max-width: 1240px;
+        min-width: 840px;
+    }
+}
+
+
+@media only screen and (max-width: 980px) {
+    .our_project__top, .our_project__down {
+        transform: scale(0.65);
+    }
+}
+
+
+@media screen and (max-width: 980px) {
+    .header_title h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .studia_block {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .kredo_block {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .z-index-title__mini {
+        top: 5px;
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .container {
+        padding: 0 20px 0 20px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .LANDING_PAGE_content h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .contact_container_inside {
+        padding: 125px 0 50px 0;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+    .contact_container_text, .adaptability_text {
+        padding: 0 20px;
+    }
+
+}
